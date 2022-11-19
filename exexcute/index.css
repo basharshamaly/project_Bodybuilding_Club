@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+i {
+  display: inline-block;
+}
+main.head {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+
+  color: white;
+  min-height: 50%;
+  width: 100%;
+}
+
+main.head div.lefthead span {
+  margin-right: 20px;
+}
+main.head div.lefthead i {
+  margin-right: 10px;
+}
+main.head nav.lefthead_navigation i {
+  margin: 0px 3px;
+}
+@media (max-width: 768px) {
+  main.head {
+    display: none;
+  }
+}
+header.content_header {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 50%;
+  width: 100%;
+  background-color: #eee;
+}
+header.content_header div.leftheader {
+  background-color: red;
+}
+header.content_header div.leftheader img {
+  height: 50px;
+}
+header.content_header nav.rightheader_navigation a {
+  color: black;
+  margin: 10px;
+}
+
+header.content_header nav.rightheader_navigation a span {
+  color: red;
+}
+header.content_header nav.rightheader_navigation i#list {
+  color: white;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  header.content_header nav.rightheader_navigation a {
+    display: none;
+  }
+}
+
+section.hero {
+  background-image: url(../img/1-main/main-bgi.svg);
+  background-color: red;
+  display: flex;
+  background-size: 100%;
+  height: 88vh;
+  justify-content: start;
+  flex-direction: column;
+  color: white;
+  background-repeat: no-repeat;
+}
+section.hero div.left_hero {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 150px;
+  padding: 20px;
+}
+
+section.hero div.left_hero p,
+section.hero div.left_hero h3 {
+  padding: 10px;
+}
+section.hero div.left_hero button {
+  margin: 10px;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  border: solid white 2px;
+}
+section.hero div.left_hero h1 {
+  padding: 10px;
+  font-size: 3rem;
+}
